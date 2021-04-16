@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/luke2533/Oceania-Airlines)
+
 # Oceania airlines - Project 1
 
 The project is an airline company that flies travellers to countries on the oceanic plate for all year round resort holidays. The website's goal is to deliver an intuitive user friendly website that provides the users information on flight times, destinations, contact information and form for the user to create an account.
