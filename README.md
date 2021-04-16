@@ -12,7 +12,7 @@ Oceania airlines' target audience are business/economy class customers travellin
 
 ### User needs and goals
 
-#### User needs: 
+#### User needs:
 
 1. Accessibility for all users
 2. Images of famous oceanianic destinations
@@ -41,9 +41,9 @@ Oceania airlines' target audience are business/economy class customers travellin
 - Increase user traffic through effective website structure and information architecture
 - Provide information to users
 
-### User stories 
+### User stories
 
-- User is looking to contact oceania airlines 
+- User is looking to contact oceania airlines
 - User is looking for flight information
 - User wants to be contacted by oceania airlines by their details
 - User wants summary of destinations
@@ -54,15 +54,15 @@ Oceania airlines' target audience are business/economy class customers travellin
 #### Fonts  	
 Titles and subtitles will be in Bebas Neue:
 
-https://fonts.google.com/specimen/Bebas+Neue?preview.layout=row&category=Display&preview.text=Oceania%20Airlines&preview.text_type=custom#standard-styles 
+https://fonts.google.com/specimen/Bebas+Neue?preview.layout=row&category=Display&preview.text=Oceania%20Airlines&preview.text_type=custom#standard-styles
 
 Text will be in Noto Sans JP:
 
-https://fonts.google.com/specimen/Noto+Sans+JP?preview.size=64&preview.layout=row&category=Sans+Serif 
+https://fonts.google.com/specimen/Noto+Sans+JP?preview.size=64&preview.layout=row&category=Sans+Serif
 
 #### Icons
 Font awesome:
-https://fontawesome.com/icons?d=gallery&p=2&q=plane 
+https://fontawesome.com/icons?d=gallery&p=2&q=plane
 - Plane icon
 - Youtube icon
 - Instagram icon
@@ -71,12 +71,12 @@ https://fontawesome.com/icons?d=gallery&p=2&q=plane
 - Phone icon (contact us)
 
 #### Colors
-https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933 
+https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933
 - #BAC1B8 - Normal background color
-- #58A4B0 - 
+- #58A4B0 -
 - #0C7C59 - Main color
 - #2B303A -  
-- #D64933 - 
+- #D64933 -
 
 #### Styling ?
 
@@ -96,7 +96,7 @@ https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933
 - Image-11 - image of destination
 - Image-12 - banner image
 
-### Wireframes 
+### Wireframes
 (Link to wireframe in README.md)
 
 (Link to Mock up in README.md)
@@ -130,8 +130,8 @@ https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933
 
 #### Media
 
-#### Code 
+#### Code
 
-#### Acknowledgments 
+#### Acknowledgments
 
-### Disclaimer 
+### Disclaimer
