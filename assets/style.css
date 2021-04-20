@@ -8,9 +8,18 @@ h1, h2, h3, h4{
 }
 
 body{
-  background-color: #BAC1B8;
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #FFFFFF;
+  font-weight: 400;
 }
 
+header{
+  background-color: #e6e6e6;
+}
+
+footer{
+  background-color: #e6e6e6;
+}
 /* Header */
 
 /* #container{ */
@@ -20,12 +29,12 @@ body{
 
 .button-a{
     border: 1px solid black;
-    background-color: grey;
-    color: red;
+    background-color: #0C7C59;
+    color: #FFFFFF;
     margin: 1px;
     padding: 10px;
     height: 50px;
-    width: 100px;
+    width: 110px;
     justify-content: center;
     text-align: center;
 }
@@ -49,12 +58,43 @@ body{
 
 /* Header */
 
-/* Location Summary Section */
+/* Loaction slideshow */
+
+.slide-img{
+  height: 800px;
+}
+
+/* Loaction slideshow */
+
+/* Oceania Airlines Summary Section */
 .loa-img{
   height: 400px;
   width: 600px;
+  margin: 10px;
 }
 
 .box-area{
   border: 1px solid black;
+  height: 400px;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #0C7C59;
+  color: #FFFFFF;
+}
+
+/* Oceania Airlines Summary Section */
+
+/* Footer */
+
+.footer{
+  /* border: 1px solid black; */
+  margin-top: 5px;
+  width: 350px;
+  height: 200px;
+  padding: 20px;
+  margin-left: 400px;
+}
+
+.footer-space{
+  height: 25px;
 }

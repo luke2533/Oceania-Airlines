@@ -13,16 +13,17 @@
 
     <body>
       <header>
-          <div class="container">
+        <!-- Bootstrap navbar 4.5 -->
+          <div class="container" id="container">
               <nav class="nav">
-                  <div class="col-8">
+                  <div class="col-8 nav-bar">
                       <img src="assets/image/logo.jpg" alt="Oceania Airlines logo" class="logo">
-                      <h1>Oceania Airlines</h1>
-                      <h4>Add slogan here</h4>
+                      <h1 class="title-card">Oceania Airlines</h1>
+                      <h4 class="title-card">Add slogan here</h4>
                   </div>
-                  <div class="col-4">
+                  <div class="col-4 nav-bar">
 
-                          <ul class="nav justify-content-end">
+                          <ul class="nav justify-content-end" id="nav-button">
                           <li class="nav-item">
                               <a class="button-a nav-link" href="index.html">Home</a>
                           </li>
@@ -33,7 +34,6 @@
                               <a class="button-a nav-link" href="contact-us.html">Contact Us</a>
                           </li>
                           </ul>
-
                   </div>
               </nav>
           </div>
@@ -71,20 +71,29 @@
         </section>
 
         <footer>
-            <div>
+          <div class="row">
+            <div class="footer">
                 <h3>Contact us</h3>
-                <i class="fab fa-instagram"></i><span>Instagram</span>
-                <i class="fab fa-youtube"></i><span>YouTube</span>
-                <i class="fab fa-facebook-square"></i><span>Facebook</span>
-                <i class="fab fa-twitter"></i><span>Twitter</span>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram footer-space"></i> Instagram</a>
+                <br>
+                <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube footer-space"></i> YouTube</a>
+                <br>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square footer-space"></i> Facebook</a>
+                <br>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter footer-space"></i> Twitter</a>
             </div>
 
-            <div>
+            <div class="footer">
                 <h3>Navigation</h3>
-                <a href="index.html">Home</a>
-                <a href="flight-info.html">Flight Info</a>
-                <a href="contact-us.html">Contact Us</a>>
+                <a href="index.html"><i class="fas fa-home footer-space"></i> Home</a>
+                <br>
+                <a href="flight-info.html"><i class="fas fa-plane footer-space"></i> Flight Info</a>
+                <br>
+                <a href="contact-us.html"><i class="fas fa-phone footer-space"></i> Contact Us</a>
             </div>
+          </div>
         </footer>
+
+    </body>
 
 </html>
