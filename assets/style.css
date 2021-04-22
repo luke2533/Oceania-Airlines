@@ -62,23 +62,41 @@ footer{
 /* Loaction slideshow */
 
 .slide-img{
-  height: 800px;
+  max-height: 775px;
+  width: 100%;
+}
+
+.button-box{
+
 }
 
 /* Loaction slideshow */
 
 /* Oceania Airlines Summary/Grid Section */
+#row-md{
+  margin-bottom: 0px;
+}
+
+.row{
+  margin-bottom: 15px;
+}
+
 .loa-img{
-  height: 400px;
-  width: 600px;
+  max-height: 400px;
+  max-width: 600px;
+  height: 100%;
+  width: 100%;
   margin: 10px;
-  border:
+  border: 1px solid black;
 }
 
 .box-area{
   border: 1px solid black;
-  height: 400px;
+  max-height: 400px;
+  height: 100%;
+  width: 100%;
   margin-top: 10px;
+  margin-bottom: 0px;
   padding: 5px;
   background-color: #0C7C59;
   color: #FFFFFF;
@@ -115,12 +133,16 @@ footer{
 .footer{
   /* border: 1px solid black; */
   margin-top: 5px;
-  width: 350px;
+  width: 500px;
   height: 200px;
   padding: 20px;
-  margin-left: 400px;
 }
 
 .footer-space{
   height: 25px;
 }
+
+
+/* Footer */
+
+/* Breakpoints */
