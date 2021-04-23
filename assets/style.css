@@ -44,6 +44,11 @@ footer{
     font-size: 14px;
 }
 
+.button-nav:hover{
+  background-color: #D64933;
+  color: #0C7C59;
+}
+
 .logo{
   max-height: 80px;
   float: left;
@@ -63,8 +68,9 @@ footer{
 /* Loaction slideshow */
 
 .slide-vid{
-
+  object-fit: fill;
 }
+/* https://stackoverflow.com/questions/3779771/html-5-video-stretch */
 
 .slide-img{
   /* max-height: 775px; */
@@ -80,6 +86,13 @@ footer{
   margin-top: 315px;
   margin-left: 5px;
   position: relative;
+}
+
+.carousel-caption{
+  color: white;
+  background-color: rgba(145, 145, 145, 0.7);
+  text-align: center;
+  padding: 1px;
 }
 
 /* Loaction slideshow */
@@ -104,6 +117,7 @@ footer{
 
 .box-area{
   border: 1px solid black;
+  /* border-bottom: 2px solid black 0.2; COME BACK TO */
   max-height: 400px;
   height: 100%;
   width: 100%;
@@ -140,8 +154,31 @@ footer{
     padding-top: 10px;
 }
 
+.contact-content{
+  padding: 10px;
+  margin-top: 27px;
+  font-size: 1.2em;
+  padding-left: 0px;
+}
+
 .contact-title{
   border-bottom: 1px solid black;
+}
+
+.contact-icon{
+  background-color: #e6e6e6;
+  color: #0C7C59;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  padding-top: 15px;
+  text-align: center;
+  margin: 27px;
+  justify-content: space-around;
+}
+
+.contact-form{
+  border: 1px solid black;
 }
 
 /* Contact Us page */
@@ -164,6 +201,11 @@ footer{
   height: 48px;
   padding-top: 15px;
   text-align: center;
+}
+
+i:hover{
+  background-color: #D64933;
+  color: #0C7C59;
 }
 
 
