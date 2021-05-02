@@ -8,7 +8,7 @@ The project is an airline company that flies travellers to countries on the ocea
 
 #### Target audience
 
-Oceania airlines' target audience are business/economy class customers travelling to countries on the oceanic plate such as australia, hawaii, new zealand and papua new guinea primary for international business and all year round family friendly holiday resorts.
+Oceania airlines' target audience are business/economy class customers travelling to countries on the oceanic plate such as Australia, Hawaii, New Zealand and Papua New Guinea primary for international business and all year round family friendly holiday resorts.
 
 ### User needs and goals
 
@@ -63,38 +63,36 @@ https://fonts.google.com/specimen/Noto+Sans+JP?preview.size=64&preview.layout=ro
 #### Icons
 Font awesome:
 https://fontawesome.com/icons?d=gallery&p=2&q=plane
-- Plane icon
 - Youtube icon
 - Instagram icon
 - Twitter icon
 - Facebook icon
 - Phone icon (contact us)
+- Home icon (home page)
+- Plane icon (flight info)
 
 #### Colors
 https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933
-- #BAC1B8 - Normal background color
-- #58A4B0 -
-- #0C7C59 - Main color
-- #2B303A -  
-- #D64933 -
+- #FFFFFF - Normal background color
+- #E6E6E6 - Header and footer background
+- #0C7C59 - Primary color (buttons, text buttons, nav bar)
+- #D64933 - Secondary color (hover)
 
-#### Styling ?
+#### Images and Videos
 
-#### Images (credit them)
-
-- Logo - Oceania Airlines logo
-- Image-1 - Slideshow image of destination
-- Image-2 - Slideshow image of destination
-- Image-3 - Slideshow image of destination
-- Image-4 - Slideshow image of destination
-- Image-5 - Image of a plane
-- Image-6 - Image of a flight attendant
-- Image-7 - Image of flight time board
-- Image-8 - image of destination
-- Image-9 - image of destination
-- Image-10 - image of destination
-- Image-11 - image of destination
-- Image-12 - banner image
+- logo - Oceania Airlines logo
+- image-1 - Slideshow image of Hawaii
+- image-2 - Slideshow image of New Zealand
+- image-3 - Slideshow image of Papua New Guinea
+- image-4 - Slideshow image of Australia
+- image-5 - Image of a plane
+- image-6 - Image of a flight attendant
+- image-7 - Image of airport
+- image-8 - image of Hawaii 2
+- image-9 - image of Papua New Guinea 2
+- image-10 - image of Australia 2
+- image-11 - image of New Zealand 2
+- video-1 - Video of Hawaii (slideshow)
 
 ### Wireframes
 (Link to wireframe in README.md)
@@ -105,18 +103,43 @@ https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933
 
 #### Exsiting features
 
+- Small summary of location
+- User contact form
+- Static board/table with flight info
+1. Time
+2. Destination
+3. Flight number
+4. Status
+- Images and videos (slideshow)
+- Submit button (form)
+- Company contact info
+- Different device size support
+- Nav bar
+- Animations for buttons for user feedback
+
 #### Features left to implement
+
+- Functional Slideshow
+- Live info board
+- Functional contact us page (submit button)
 
 ### Technologies used
 
 #### HTML5
 
+---------------------
+
 #### CSS3
+
+---------------------
 
 #### Bootstrap
 
+---------------------
+
 ### Testing
-(Linking to testing.md)
+
+[Testing documentation](test.md)
 
 ### Deployment
 
@@ -126,11 +149,49 @@ https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933
 
 ### Credits
 
-#### Content
+#### Content and Media
 
-#### Media
+- logo - https://www.graphicsprings.com/logographics/blue-flying-plane
+- image-1 - https://www.celebritycruises.com/gb/2021-2022-cruises/2021-hawaii-cruises
+- image-2 - https://www.prospects.ac.uk/jobs-and-work-experience/working-abroad/work-in-new-zealand
+- image-3 - https://squaremile.com/travel/travel-papua-new-guinea-guide/
+- image-4 - https://theculturetrip.com/pacific/australia/
+- image-5 - https://runwaygirlnetwork.com/2020/10/14/questions-remain-about-covid-cabin-safety-testing/
+- image-6 - https://forum.airportceo.com/t/flight-and-cabin-crew/8921
+- image-7 - https://www.worldairportawards.com/tokyo-haneda-airport-worlds-cleanest-airport/
+- image-8 - https://www.gadventures.com/destinations/north-america/united-states/hawaii/
+- image-9 - https://www.worldnomads.com/explore/oceania/papua-new-guinea/staying-safe-in-papua-new-guinea
+- image-10 - https://www.aussiespecialist.com/en/sales-resources/itineraries-search-and-feature/7-days-in-wa.html
+- image-11 - https://www.newzealand.com/uk/
+- video-1 - Video of hawaii - Jess Vide - https://www.pexels.com/video/drone-footage-of-a-beach-white-sand-shoreline-4782483/
 
 #### Code
+
+Bootstrap V 4.5 in order of appearance (index, flight-info, contact-us)
+
+Nav bar horizontal alignment right (4th one down) - https://getbootstrap.com/docs/4.5/components/navs/
+
+Carousel with captions (slide show 4th one down) - https://getbootstrap.com/docs/4.5/components/carousel/
+
+Grid system horizontal alignment (one of two columns 17th one down)
+<div class="row justify-content-center">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+https://getbootstrap.com/docs/4.5/layout/grid/
+
+flight-info.html
+
+Tables boarded table (7th one down) - https://getbootstrap.com/docs/4.5/content/tables/
+
+Fix on video with across page (CSS) -
+https://stackoverflow.com/questions/3779771/html-5-video-stretch
+Responsive breakpoints (4th one down) - https://getbootstrap.com/docs/4.5/layout/overview/#responsive-breakpoints
+
 
 #### Acknowledgments
 
