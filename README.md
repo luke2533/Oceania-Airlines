@@ -2,17 +2,17 @@
 
 The project is an airline company that flies travellers to countries on the oceanic plate for all year round resort holidays. The website's goal is to deliver an intuitive user friendly website that provides the users information on flight times, destinations, contact information and form for the user to create an account.
 
-## UX
+## 1.0 UX
 
-### User goals
+### 1.1 User goals
 
-#### Target audience
+#### 1.1.1 Target audience
 
 Oceania airlines' target audience are business/economy class customers travelling to countries on the oceanic plate such as Australia, Hawaii, New Zealand and Papua New Guinea primary for international business and all year round family friendly holiday resorts.
 
-### User needs and goals
+### 1.2 User needs and goals
 
-#### User needs:
+#### 1.2.1 User needs:
 
 1. Accessibility for all users
 2. Images of famous oceanianic destinations
@@ -22,7 +22,7 @@ Oceania airlines' target audience are business/economy class customers travellin
 6. Company contact info
 7. Summary of holiday
 
-#### How the user needs are met
+#### 1.2.2 How the user needs are met
 
 1. Alt tags for videos and images, text transcript, color contrast, form labels, clear feedback for required forms fields * and device support
 2. Vibrant images to in entice users
@@ -32,16 +32,16 @@ Oceania airlines' target audience are business/economy class customers travellin
 6. Contact us page with companies contact information
 7. Summaries of popular holiday destinations (with images)
 
-### Developer and business goals
+### 1.3 Developer and business goals
 
-#### Goals of the business   		
+#### 1.3.1 Goals of the business		
 - The product attracts new customers
 - The product retains users who return and recommend the product to new users
 - Sell tickets for business/economy class
 - Increase user traffic through effective website structure and information architecture
 - Provide information to users
 
-### User stories
+### 1.4 User stories
 
 - User is looking to contact oceania airlines
 - User is looking for flight information
@@ -49,9 +49,9 @@ Oceania airlines' target audience are business/economy class customers travellin
 - User wants summary of destinations
 - Users who are visually imparied cant see an image and so they require text to describe the content of the image
 
-### Design choices
+## 2.0 Design choices
 
-#### Fonts  	
+### 2.1 Fonts  	
 Titles and subtitles will be in Bebas Neue:
 
 https://fonts.google.com/specimen/Bebas+Neue?preview.layout=row&category=Display&preview.text=Oceania%20Airlines&preview.text_type=custom#standard-styles
@@ -60,7 +60,7 @@ Text will be in Noto Sans JP:
 
 https://fonts.google.com/specimen/Noto+Sans+JP?preview.size=64&preview.layout=row&category=Sans+Serif
 
-#### Icons
+### 2.2 Icons
 Font awesome:
 https://fontawesome.com/icons?d=gallery&p=2&q=plane
 - Youtube icon
@@ -71,14 +71,14 @@ https://fontawesome.com/icons?d=gallery&p=2&q=plane
 - Home icon (home page)
 - Plane icon (flight info)
 
-#### Colors
+### 2.3 Colors
 https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933
 - #FFFFFF - Normal background color
 - #E6E6E6 - Header and footer background
 - #0C7C59 - Primary color (buttons, text buttons, nav bar)
 - #D64933 - Secondary color (hover)
 
-#### Images and Videos
+### 2.4 Images and Videos
 
 - logo - Oceania Airlines logo
 - image-1 - Slideshow image of Hawaii
@@ -94,14 +94,14 @@ https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933
 - image-11 - image of New Zealand 2
 - video-1 - Video of Hawaii (slideshow)
 
-### Wireframes
+### 2.5 Wireframes
 (Link to wireframe in README.md)
 
 (Link to Mock up in README.md)
 
-### Features
+## 3.0 Features
 
-#### Exsiting features
+### 3.1 Exsiting features
 
 - Small summary of location
 - User contact form
@@ -117,39 +117,146 @@ https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933
 - Nav bar
 - Animations for buttons for user feedback
 
-#### Features left to implement
+### 3.2 Features left to implement
 
 - Functional Slideshow
 - Live info board
 - Functional contact us page (submit button)
 
-### Technologies used
+## 4.0 Technologies used
 
-#### HTML5
-
----------------------
-
-#### CSS3
+### 4.1 HTML5
 
 ---------------------
 
-#### Bootstrap
+### 4.2 CSS3
 
 ---------------------
 
-### Testing
+### 4.3 Bootstrap
+
+---------------------
+
+## 5.0 Testing
 
 [Testing documentation](test.md)
 
-### Deployment
+## 6.0 Development life cycle
 
-#### How to run this project logically
+### 6.1 Initial commit README and basic HTML
 
-#### Github links
+Additions:
 
-### Credits
+- Includes README up to Wireframe
+- Nav-bar skeleton
+- Logo (icon)
+- Footer skeleton
+- Home page skeleton
+- Added carousel (slideshow)
 
-#### Content and Media
+Issue - Problem the nav-bar being responsive when using the button tag
+
+Fix - Changed the tag to a link and is functional
+
+### 6.2 Fix to gitpod
+
+Issue - Gitpod being slow and unresponsive
+
+Fix - Switching to atom 05:07am 16/04/2021
+
+### 6.3 Flight info HTML skeleton complete
+
+Additions:
+
+- Added basic flight info page skeleton
+- Added flight info table
+- Added the nav-bar
+- Added the footer
+
+### 6.4 Contact Us HTML skeleton complete
+
+Additions:
+
+- Added basic contact us page skeleton
+- Added contact us form
+- Added the nav-bar
+- Added the footer
+
+### 6.5 Fixed image size, fixed the position of the logo, nav-bar small fix position
+
+Issue - Images have different sizes breaking up the page structure
+
+Fix - Added loa-img class to have images share the same dimensions  
+
+Issue - Position of the logo on nav-bar
+
+Fix - Created logo class to float left
+
+### 6.6 Footer structure complete (no animation yet) links to social media added
+
+Additions:
+
+- Footer box removed
+- Added icons to page links (footer)
+- Added links to social media icons that create new tab (footer)
+
+### 6.7 Small fix: Header icon, contact us page, flight info pages and Images
+
+Additions:
+
+- Added images to flight info page
+- Changed the grids size
+- Changed the contact form size
+- Added nav-bar icons to links
+
+Note: Header refers to Nav-bar
+
+### 6.8 Footer and header complete, structure progress, problem with Breakpoints
+
+Additions:
+
+- Footer and header complete
+- Home page structure progress
+
+Issue - Breakpoints on home page
+
+Fix - Used bootstraps grid system which fixed some of the pages structure when on smaller screens
+
+### 6.9 Video complete, footer icons and addition to the structure of contact us
+
+Additions:
+
+- Added video to slideshow auto-plays and loops
+- Footer icons hover animation
+- Added better structure and CSS to contact us form
+
+### 6.10 Test.md added and addition to README.md
+
+Additions:
+
+- Updated README.md up to Technologies
+- Added test.md file
+
+### 6.11 Removed carousel, added logo link, updated README
+
+Additions
+
+- Added link to home page on Oceania airlines logo across all pages
+- Updated README.md to include development cycle
+
+Issue - Home page carousel causes unnecessary problems with breakpoints  
+
+Fix - Remove carousel and leave the video
+
+## 7.0 Deployment
+
+### 7.1 How to run this project logically
+
+### 7.2 Github links
+
+## 8.0 Credits
+
+### 8.1 Content and Media
 
 - logo - https://www.graphicsprings.com/logographics/blue-flying-plane
 - image-1 - https://www.celebritycruises.com/gb/2021-2022-cruises/2021-hawaii-cruises
@@ -165,7 +272,7 @@ https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933
 - image-11 - https://www.newzealand.com/uk/
 - video-1 - Video of hawaii - Jess Vide - https://www.pexels.com/video/drone-footage-of-a-beach-white-sand-shoreline-4782483/
 
-#### Code
+### 8.2 Code
 
 Bootstrap V 4.5 in order of appearance (index, flight-info, contact-us)
 
@@ -193,6 +300,6 @@ https://stackoverflow.com/questions/3779771/html-5-video-stretch
 Responsive breakpoints (4th one down) - https://getbootstrap.com/docs/4.5/layout/overview/#responsive-breakpoints
 
 
-#### Acknowledgments
+### 8.3 Acknowledgments
 
-### Disclaimer
+### 9.0 Disclaimer

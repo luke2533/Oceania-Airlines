@@ -75,5 +75,3 @@ Twitter link opens Twitter in another tab without any problems
 The contact us forms text boxes can be written in and the radio buttons can be selected but the submit button does not have a function
 
 ## Responsive Breakpoints
-
-They dont fucking work
