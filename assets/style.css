@@ -63,6 +63,13 @@ footer{
   height: 80px;
 }
 
+.tablet-nav{
+  background-color: red;
+}
+
+.mobile-nav{
+  background-color: green;
+}
 
 /* Header */
 
@@ -109,10 +116,11 @@ footer{
 
 .loa-img{
   max-height: 400px;
-  max-width: 600px;
+  /* max-width: 600px; */
   height: 100%;
   width: 100%;
   margin: 10px;
+  margin-top: 0px;
   border: 1px solid black;
 }
 
@@ -120,7 +128,7 @@ footer{
   border: 1px solid black;
   /* border-bottom: 2px solid black 0.2; COME BACK TO */
   max-height: 400px;
-  height: 100%;
+  height: 85%;
   width: 100%;
   margin-top: 10px;
   margin-bottom: 0px;
@@ -129,16 +137,42 @@ footer{
   color: #FFFFFF;
 }
 
+/* Marcel box-area + loa-img */
+
 /* Oceania Airlines Summary Section */
 
 /* Flight Info page */
 
-.table-width{
+
+.web-table{
   width: 100%;
   max-width: 1600px;
   margin-left: 160px;
   margin-top: 10px;
+  background-color: green;
 }
+
+.tablet-table{
+  background-color: red;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.mobile-table{
+  max-width: 320px;
+
+  margin-top: 10px;
+}
+
+/* PROBLEM WITH FOOOOOOTEEEEERRR/////////////////////////////////// */
+
+
+/* .table-width{
+  width: 100%;
+  max-width: 1600px;
+  margin-left: 10px;
+  margin-top: 10px;
+} */
 
 .loa-name{
   border-bottom: 1px solid black;
@@ -160,6 +194,7 @@ footer{
   margin-top: 27px;
   font-size: 1.2em;
   padding-left: 0px;
+  border-bottom: 1px solid black;
 }
 
 .contact-title{
@@ -215,15 +250,35 @@ i:hover{
 /* Breakpoints */
 
 /* Small devices (vertical phone) */
-@media (min-width: 576px) {...}
-
+@media screen and (max-width: 450px) {
+  .tablet-table{
+      display: none;
+    }
+}
+@media screen and (min-width: 450px) {
+  .mobile-table{
+      display: none;
+    }
+}
 /* Small devcices (landscape phones) */
-@media (min-width: 768px) {...}
+@media (min-width: 768px) {}
 
 /* Medium devices (tablets) */
-@media (min-width: 992px) {...}
+@media screen and (max-width: 1025px) {
+  .web-table {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .tablet-table{
+    display: none;
+  }
+}
+
+
 
 /* Large devices (desktops) */
-@media (min-width: 1200px) {...}
+@media (min-width: 1200px) {}
 
 /* (Bootsrap breakpoins) */
