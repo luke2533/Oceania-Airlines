@@ -2,7 +2,7 @@
 
 /* General */
 
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5, h6{
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
 }
@@ -22,13 +22,44 @@ footer{
 }
 /* Header */
 
-/* #container{ */
-    /* margin-left: 0px; */
-  /* } */
-
 #home{
   margin-right: 38px;
 }
+
+/* Mobile nav bar */
+
+.mobile-nav .button-nav{
+  height: 50px;
+  width: 70px;
+  font-size: 11px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.mobile-nav .nav-item{
+  width: 80px;
+}
+
+/* Mobile nav bar */
+
+/* Tablet nav bar */
+
+.tablet-nav .button-nav{
+  height: 70px;
+  width: 100px;
+  font-size: 12px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.tablet-nav .nav-item{
+  width: 110px;
+}
+
+
+/* Tablet nav bar */
 
 .button-nav{
     border: 1px solid black;
@@ -50,6 +81,7 @@ footer{
   color: #0C7C59;
 }
 
+
 .logo{
   max-height: 80px;
   float: left;
@@ -63,13 +95,6 @@ footer{
   height: 80px;
 }
 
-.tablet-nav{
-  background-color: red;
-}
-
-.mobile-nav{
-  background-color: green;
-}
 
 /* Header */
 
@@ -250,28 +275,44 @@ i:hover{
 /* Breakpoints */
 
 /* Small devices (vertical phone) */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 576px) {
   .tablet-table{
       display: none;
     }
+
+    .tablet-nav{
+        display: none;
+      }
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 576px) {
   .mobile-table{
       display: none;
     }
+
+  .mobile-nav{
+    display: none;
+  }
 }
 /* Small devcices (landscape phones) */
 @media (min-width: 768px) {}
 
 /* Medium devices (tablets) */
-@media screen and (max-width: 1025px) {
-  .web-table {
+@media screen and (max-width: 992px) {
+  .web-table{
+    display: none;
+  }
+
+  .web-nav{
     display: none;
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 992px) {
   .tablet-table{
+    display: none;
+  }
+
+  .tablet-nav{
     display: none;
   }
 }

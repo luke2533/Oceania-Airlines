@@ -239,7 +239,7 @@ Additions:
 
 ### 6.11 Removed carousel, added logo link, updated README
 
-Additions
+Additions:
 
 - Added link to home page on Oceania airlines logo across all pages
 - Updated README.md to include development cycle
@@ -247,6 +247,17 @@ Additions
 Issue - Home page carousel causes unnecessary problems with breakpoints  
 
 Fix - Remove carousel and leave the video
+
+### 6.12 Small touch ups to contact us form, progress on breakpoints flight info
+
+Additions:
+
+- Small additions to the contact us form
+- Progress on breakpoints with table on the flight info page
+
+Issues - Problem with table stretching page dimensions on tablet and mobile versions
+
+Fix - Working on fix currently
 
 ## 7.0 Deployment
 
