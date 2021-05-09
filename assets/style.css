@@ -98,20 +98,33 @@ footer{
 
 /* Header */
 
-/* Loaction slideshow */
+/* Loaction video */
 
 .slide-vid{
   object-fit: fill;
-}
-/* https://stackoverflow.com/questions/3779771/html-5-video-stretch */
-
-.slide-img{
-  /* max-height: 775px; */
   height: 720px;
   min-height: 100%;
   width: 1440px;
   min-width: 100%;
   margin: 0;
+}
+/* https://stackoverflow.com/questions/3779771/html-5-video-stretch */
+
+.mobile-video{
+  height: 240px;
+  object-fit: fill;
+}
+
+#mobile-video-text{
+  font-size: 11px;
+}
+
+.tablet-video{
+  object-fit: fill;
+}
+
+#tablet-video-text{
+  font-size: 16px;
 }
 
 .button-loa{
@@ -128,7 +141,7 @@ footer{
   padding: 1px;
 }
 
-/* Loaction slideshow */
+/* Loaction video */
 
 /* Oceania Airlines Summary/Grid Section */
 #row-md{
@@ -162,6 +175,36 @@ footer{
   color: #FFFFFF;
 }
 
+.mobile-grid-home{
+  height: 150px;
+  font-size: 10px;
+  padding: 7px;
+}
+
+.mobile-grid-home .loa-img {
+  width: 200px;
+}
+
+.tablet-grid-home .box-area {
+  width: 200px;
+}
+
+.tablet-grid-home{
+  height: 250px;
+  font-size: 14px;
+}
+
+.tablet-grid-home .loa-img{
+  width: 350px;
+}
+
+.tablet-grid-home .box-area {
+  width: 350px;
+}
+
+.web-grid-home{
+  background-color: green;
+}
 /* Marcel box-area + loa-img */
 
 /* Oceania Airlines Summary Section */
@@ -184,20 +227,15 @@ footer{
 }
 
 .mobile-table{
-  max-width: 320px;
-
-  margin-top: 10px;
+  width: 370px;
+  font-size: 9px;
+  justify-content: center;
 }
+
+
 
 /* PROBLEM WITH FOOOOOOTEEEEERRR/////////////////////////////////// */
 
-
-/* .table-width{
-  width: 100%;
-  max-width: 1600px;
-  margin-left: 10px;
-  margin-top: 10px;
-} */
 
 .loa-name{
   border-bottom: 1px solid black;
@@ -275,7 +313,7 @@ i:hover{
 /* Breakpoints */
 
 /* Small devices (vertical phone) */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 426px) {
   .tablet-table{
       display: none;
     }
@@ -283,8 +321,16 @@ i:hover{
     .tablet-nav{
         display: none;
       }
+
+    .tablet-video{
+      display: none;
+    }
+
+    .tablet-grid-home{
+      display: none;
+    }
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 426px) {
   .mobile-table{
       display: none;
     }
@@ -292,12 +338,21 @@ i:hover{
   .mobile-nav{
     display: none;
   }
+
+  .mobile-video{
+    display: none;
+  }
+
+  .mobile-grid-home{
+    display: none;
+  }
+
 }
 /* Small devcices (landscape phones) */
 @media (min-width: 768px) {}
 
 /* Medium devices (tablets) */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
   .web-table{
     display: none;
   }
@@ -305,9 +360,18 @@ i:hover{
   .web-nav{
     display: none;
   }
+
+  .web-video{
+    display: none;
+  }
+
+  .web-grid-home{
+    display: none;
+  }
+
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
   .tablet-table{
     display: none;
   }
@@ -315,11 +379,19 @@ i:hover{
   .tablet-nav{
     display: none;
   }
+
+  .tablet-video{
+    display: none;
+  }
+
+  .tablet-grid-home{
+    display: none;
+  }
 }
 
 
 
 /* Large devices (desktops) */
-@media (min-width: 1200px) {}
+@media (min-width: 1440px) {}
 
 /* (Bootsrap breakpoins) */

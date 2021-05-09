@@ -259,6 +259,20 @@ Issues - Problem with table stretching page dimensions on tablet and mobile vers
 
 Fix - Working on fix currently
 
+### 6.13 Nav-bar breakpoint complete across all devices
+
+Additions:
+
+- Nav bar breakpoints across mobile, tablet and desktop
+
+### 6.14 Progress on home grid, flight info table and video Breakpoints
+
+Additions:
+
+- Home page grid system breakpoints works across most devices
+- Flight info table progress for breakpoint
+- Video breakpoints work across all devices
+
 ## 7.0 Deployment
 
 ### 7.1 How to run this project logically
