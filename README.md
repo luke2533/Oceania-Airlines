@@ -81,17 +81,13 @@ https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933
 ### 2.4 Images and Videos
 
 - logo - Oceania Airlines logo
-- image-1 - Slideshow image of Hawaii
-- image-2 - Slideshow image of New Zealand
-- image-3 - Slideshow image of Papua New Guinea
-- image-4 - Slideshow image of Australia
-- image-5 - Image of a plane
-- image-6 - Image of a flight attendant
-- image-7 - Image of airport
-- image-8 - image of Hawaii 2
-- image-9 - image of Papua New Guinea 2
-- image-10 - image of Australia 2
-- image-11 - image of New Zealand 2
+- image-1 - Image of a plane
+- image-2 - Image of a flight attendant
+- image-3 - Image of airport
+- image-4 - image of Hawaii
+- image-5 - image of Fiji
+- image-6 - image of Australia
+- image-7 - image of New Zealand
 - video-1 - Video of Hawaii (slideshow)
 
 ### 2.5 Wireframes
@@ -295,6 +291,17 @@ Issues - Contact page's social media overlapped onto the contact form
 
 Fix - Changed the spacing between them to fit on all devices
 
+### 6.16 Restructure of images, added text to flight info
+
+Additions:
+
+- Removed the images from the slideshow and restructured them
+- Added text to flight info page
+
+Issues - Problems with text overlapping on small mobile devices
+
+Fix - Additional small device breakpoint (Not yet added)
+
 ## 7.0 Deployment
 
 ### 7.1 How to run this project logically
@@ -303,20 +310,16 @@ Fix - Changed the spacing between them to fit on all devices
 
 ## 8.0 Credits
 
-### 8.1 Content and Media
+### 8.1 Media
 
 - logo - https://www.graphicsprings.com/logographics/blue-flying-plane
-- image-1 - https://www.celebritycruises.com/gb/2021-2022-cruises/2021-hawaii-cruises
-- image-2 - https://www.prospects.ac.uk/jobs-and-work-experience/working-abroad/work-in-new-zealand
-- image-3 - https://squaremile.com/travel/travel-papua-new-guinea-guide/
-- image-4 - https://theculturetrip.com/pacific/australia/
-- image-5 - https://runwaygirlnetwork.com/2020/10/14/questions-remain-about-covid-cabin-safety-testing/
-- image-6 - https://forum.airportceo.com/t/flight-and-cabin-crew/8921
-- image-7 - https://www.worldairportawards.com/tokyo-haneda-airport-worlds-cleanest-airport/
-- image-8 - https://www.gadventures.com/destinations/north-america/united-states/hawaii/
-- image-9 - https://www.worldnomads.com/explore/oceania/papua-new-guinea/staying-safe-in-papua-new-guinea
-- image-10 - https://www.aussiespecialist.com/en/sales-resources/itineraries-search-and-feature/7-days-in-wa.html
-- image-11 - https://www.newzealand.com/uk/
+- image-1 - https://runwaygirlnetwork.com/2020/10/14/questions-remain-about-covid-cabin-safety-testing/
+- image-2 - https://forum.airportceo.com/t/flight-and-cabin-crew/8921
+- image-3 - https://www.worldairportawards.com/tokyo-haneda-airport-worlds-cleanest-airport/
+- image-4 - https://www.gadventures.com/destinations/north-america/united-states/hawaii/
+- image-5 - https://www.state.gov/countries-areas/fiji/
+- image-6 - https://www.aussiespecialist.com/en/sales-resources/itineraries-search-and-feature/7-days-in-wa.html
+- image-7 - https://www.newzealand.com/uk/
 - video-1 - Video of hawaii - Jess Vide - https://www.pexels.com/video/drone-footage-of-a-beach-white-sand-shoreline-4782483/
 
 ### 8.2 Code
@@ -346,7 +349,32 @@ Fix on video with across page (CSS) -
 https://stackoverflow.com/questions/3779771/html-5-video-stretch
 Responsive breakpoints (4th one down) - https://getbootstrap.com/docs/4.5/layout/overview/#responsive-breakpoints
 
+### 8.3 Content
 
-### 8.3 Acknowledgments
+#### 8.3.1 Home page
+
+Hawaii description summary:
+
+https://www.britishairways.com/en-gb/destinations/hawaii/hawaii-holidays?&Brand=N&DM1_Channel=PPC&DM1_Mkt=UK&DM1_Campaign=UKI_UK_EN_DP_GENERIC_HOLIDAYS_HAWAII&SEO=N&DM1_Keyword=hawaii%20holiday&gclid=CjwKCAjwkN6EBhBNEiwADVfyawNE4DBNBy_57sDTP4pbPZ8QPU-4H6Gm_quX85QXrJ0qNyZFijlnIBoCQLMQAvD_BwE&gclsrc=aw.ds
+
+Fiji description summary:
+
+https://www.nationalgeographic.com/travel/slideshow/partner-content-12-reasons-to-make-fiji-your-happy-place
+
+Australia description summary:
+
+https://www.emirates.com/uk/english/destinations/flights-to-australia.aspx
+
+New Zealand description summary:
+
+https://www.emirates.com/uk/english/destinations/flights-to-new-zealand.aspx
+
+#### 8.3.2 Flight info
+
+
+
+#### 8.3.3 Contact us
+
+### 8.4 Acknowledgments
 
 ### 9.0 Disclaimer

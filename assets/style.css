@@ -111,6 +111,7 @@ footer{
 
 /* Video genral/desktop */
 
+
 .slide-vid{
   object-fit: fill;
   height: 720px;
@@ -168,9 +169,8 @@ footer{
 /* Oceania Airlines Summary Section */
 
 /* Oceania Airlines home grid genral/desktop */
-#row-md{
-  margin-bottom: 0px;
-}
+
+
 
 .row{
   margin-bottom: 15px;
@@ -297,6 +297,7 @@ footer{
 
 .mobile-grid-flight .box-area {
   height: 175px;
+  font-size: 6px;
 }
 
 /* Mobile flight info -- END */
@@ -311,6 +312,10 @@ footer{
   margin-bottom: 15px;
 }
 
+.tablet-grid-flight .box-area {
+  font-size: 11px;
+  padding: 1px;
+}
 /* Tablet flight info grid -- END */
 
 /* Flight Info page -- END */
@@ -393,6 +398,7 @@ i:hover{
   background-color: #D64933;
   color: #0C7C59;
 }
+
 
 /* Mobile footer */
 
