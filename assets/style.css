@@ -20,46 +20,18 @@ header{
 footer{
   background-color: #e6e6e6;
 }
-/* Header */
+
+/* General -- END */
+
+
+
+/* HEADER */
+
+/* Nav-bar genral/desktop */
 
 #home{
   margin-right: 38px;
 }
-
-/* Mobile nav bar */
-
-.mobile-nav .button-nav{
-  height: 50px;
-  width: 70px;
-  font-size: 11px;
-  padding: 5px;
-  margin: 10px;
-  text-align: center;
-}
-
-.mobile-nav .nav-item{
-  width: 80px;
-}
-
-/* Mobile nav bar */
-
-/* Tablet nav bar */
-
-.tablet-nav .button-nav{
-  height: 70px;
-  width: 100px;
-  font-size: 12px;
-  padding: 10px;
-  margin: 10px;
-  text-align: center;
-}
-
-.tablet-nav .nav-item{
-  width: 110px;
-}
-
-
-/* Tablet nav bar */
 
 .button-nav{
     border: 1px solid black;
@@ -95,10 +67,49 @@ footer{
   height: 80px;
 }
 
+/* Nav-bar genral/desktop -- END  */
 
-/* Header */
+/* Mobile nav bar */
 
-/* Loaction video */
+.mobile-nav .button-nav{
+  height: 50px;
+  width: 70px;
+  font-size: 11px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+.mobile-nav .nav-item{
+  width: 80px;
+}
+
+/* Mobile nav bar -- END  */
+
+/* Tablet nav bar */
+
+.tablet-nav .button-nav{
+  height: 70px;
+  width: 100px;
+  font-size: 12px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.tablet-nav .nav-item{
+  width: 110px;
+}
+
+/* Tablet nav bar -- END  */
+
+/* HEADER -- END  */
+
+
+
+/* HOME PAGE */
+
+/* Video genral/desktop */
 
 .slide-vid{
   object-fit: fill;
@@ -107,24 +118,6 @@ footer{
   width: 1440px;
   min-width: 100%;
   margin: 0;
-}
-/* https://stackoverflow.com/questions/3779771/html-5-video-stretch */
-
-.mobile-video{
-  height: 240px;
-  object-fit: fill;
-}
-
-#mobile-video-text{
-  font-size: 11px;
-}
-
-.tablet-video{
-  object-fit: fill;
-}
-
-#tablet-video-text{
-  font-size: 16px;
 }
 
 .button-loa{
@@ -141,9 +134,40 @@ footer{
   padding: 1px;
 }
 
-/* Loaction video */
+/* Video genral/desktop -- END */
 
-/* Oceania Airlines Summary/Grid Section */
+/* Mobile video */
+
+.mobile-video{
+  height: 240px;
+  object-fit: fill;
+}
+
+#mobile-video-text{
+  font-size: 11px;
+}
+
+/* Mobile video -- END */
+
+/* Tablet video */
+
+.tablet-video{
+  object-fit: fill;
+}
+
+#tablet-video-text{
+  font-size: 16px;
+}
+
+/* Tablet video -- END */
+
+/* Video genral/desktop -- END */
+
+
+
+/* Oceania Airlines Summary Section */
+
+/* Oceania Airlines home grid genral/desktop */
 #row-md{
   margin-bottom: 0px;
 }
@@ -154,7 +178,6 @@ footer{
 
 .loa-img{
   max-height: 400px;
-  /* max-width: 600px; */
   height: 100%;
   width: 100%;
   margin: 10px;
@@ -164,7 +187,6 @@ footer{
 
 .box-area{
   border: 1px solid black;
-  /* border-bottom: 2px solid black 0.2; COME BACK TO */
   max-height: 400px;
   height: 85%;
   width: 100%;
@@ -174,6 +196,10 @@ footer{
   background-color: #0C7C59;
   color: #FFFFFF;
 }
+
+/* Oceania Airlines home grid genral/desktop -- END */
+
+/* Mobile home grid */
 
 .mobile-grid-home{
   height: 150px;
@@ -185,9 +211,9 @@ footer{
   width: 200px;
 }
 
-.tablet-grid-home .box-area {
-  width: 200px;
-}
+/* Mobile home grid -- END */
+
+/* Tablet home grid */
 
 .tablet-grid-home{
   height: 250px;
@@ -202,15 +228,17 @@ footer{
   width: 350px;
 }
 
-.web-grid-home{
-  background-color: green;
-}
+/* Tablet home grid -- END */
+
 /* Marcel box-area + loa-img */
 
-/* Oceania Airlines Summary Section */
+/* Oceania Airlines Summary Section -- END */
+
+
 
 /* Flight Info page */
 
+/* Table genral/desktop */
 
 .web-table{
   width: 100%;
@@ -220,11 +248,13 @@ footer{
   background-color: green;
 }
 
-.tablet-table{
-  background-color: red;
-  width: 100%;
-  margin-top: 10px;
+.loa-name{
+  border-bottom: 1px solid black;
 }
+
+/* Table genral/desktop -- END  */
+
+
 
 .mobile-table{
   width: 370px;
@@ -232,18 +262,69 @@ footer{
   justify-content: center;
 }
 
+/* Mobile table -- END */
 
+/* Tablet table */
 
-/* PROBLEM WITH FOOOOOOTEEEEERRR/////////////////////////////////// */
-
-
-.loa-name{
-  border-bottom: 1px solid black;
+#tablet-flight{
+  margin-bottom: 25px;
 }
 
-/* Flight Info page */
+.tablet-table{
+  background-color: red;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+/* Tablet table -- END */
+
+/* Mobile flight info */
+
+.mobile-grid-flight{
+  min-height: 200px;
+  font-size: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.mobile-grid-flight .loa-img{
+  height: 175px;
+  margin: 0px;
+  margin-top: 34px;
+}
+
+.mobile-grid-flight .box-area {
+  height: 175px;
+}
+
+/* Mobile flight info -- END */
+
+/* Tablet flight info grid */
+
+.tablet-grid-flight{
+  height: 300px;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+/* Tablet flight info grid -- END */
+
+/* Flight Info page -- END */
+
+
 
 /* Contact Us page */
+
+/* Contact form genral/desktop */
+
+#title-question{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
 
 .contact-us{
     border: 1px solid black;
@@ -256,7 +337,7 @@ footer{
   padding: 10px;
   margin-top: 27px;
   font-size: 1.2em;
-  padding-left: 0px;
+  padding-left: 0px;-- END
   border-bottom: 1px solid black;
 }
 
@@ -272,20 +353,26 @@ footer{
   height: 48px;
   padding-top: 15px;
   text-align: center;
-  margin: 27px;
+  margin-right: 16px;
   justify-content: space-around;
 }
 
 .contact-form{
   border: 1px solid black;
+  width: 266;
 }
 
-/* Contact Us page */
+/* Contact form genral/desktop -- END */
 
-/* Footer */
+/* Contact Us page -- END */
+
+
+
+/* FOOTER */
+
+/* Footer genral/desktop */
 
 .footer{
-  /* border: 1px solid black; */
   margin-top: 5px;
   width: 500px;
   height: 200px;
@@ -307,8 +394,20 @@ i:hover{
   color: #0C7C59;
 }
 
+/* Mobile footer */
 
-/* Footer */
+/* Mobile footer -- END */
+
+/* Tablet footer */
+
+
+/* Tablet footer -- END */
+
+/* Footer genral/desktop -- END */
+
+/* FOOTER -- END */
+
+
 
 /* Breakpoints */
 
@@ -329,7 +428,18 @@ i:hover{
     .tablet-grid-home{
       display: none;
     }
+
+    .tablet-footer{
+      display: none;
+    }
+
+    .tablet-grid-flight{
+      display: none;
+    }
+
+
 }
+
 @media screen and (min-width: 426px) {
   .mobile-table{
       display: none;
@@ -347,12 +457,22 @@ i:hover{
     display: none;
   }
 
+  .mobile-tablet{
+    display: none;
+  }
+
+  .mobile-grid-flight{
+    display: none;
+  }
+
+
 }
+
 /* Small devcices (landscape phones) */
 @media (min-width: 768px) {}
 
 /* Medium devices (tablets) */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .web-table{
     display: none;
   }
@@ -369,9 +489,18 @@ i:hover{
     display: none;
   }
 
+  .web-footer{
+    display: none;
+  }
+
+  .web-grid-flight{
+    display: none;
+  }
+
+
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .tablet-table{
     display: none;
   }
@@ -387,11 +516,19 @@ i:hover{
   .tablet-grid-home{
     display: none;
   }
+
+  .tablet-footer{
+    display: none;
+  }
+
+  .tablet-grid-flight{
+    display: none;
+  }
+
+
 }
-
-
 
 /* Large devices (desktops) */
 @media (min-width: 1440px) {}
 
-/* (Bootsrap breakpoins) */
+/* Breakpoints -- END */

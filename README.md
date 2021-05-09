@@ -273,6 +273,28 @@ Additions:
 - Flight info table progress for breakpoint
 - Video breakpoints work across all devices
 
+Issues - Home page grid system on small phones (320 x 850) doesn't respond correctly
+
+Fix - Working on fix currently
+
+Issues - Problem with table stretching on mobile devices
+
+Fix - Working on fix currently
+
+Note - 6.12 commit had same issue which a fix for tablets currently responds correctly without stretching the page.
+
+### 6.15 Breakpoints on flight info grid and footer completed, contact form done
+
+Additions:
+
+- Flight info grid breakpoints added across all devices
+- Footer breakpoints work across all devices
+- Contact form structure complete
+
+Issues - Contact page's social media overlapped onto the contact form
+
+Fix - Changed the spacing between them to fit on all devices
+
 ## 7.0 Deployment
 
 ### 7.1 How to run this project logically
