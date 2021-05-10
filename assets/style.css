@@ -170,8 +170,6 @@ footer{
 
 /* Oceania Airlines home grid genral/desktop */
 
-
-
 .row{
   margin-bottom: 15px;
 }
@@ -202,22 +200,24 @@ footer{
 /* Mobile home grid */
 
 .mobile-grid-home{
-  height: 150px;
-  font-size: 10px;
+  height: 200px;
+  font-size: 6.8px;
   padding: 7px;
 }
 
 .mobile-grid-home .loa-img {
   width: 200px;
+  height: 180px;
 }
+
 
 /* Mobile home grid -- END */
 
 /* Tablet home grid */
 
 .tablet-grid-home{
-  height: 250px;
-  font-size: 14px;
+  height: 265px;
+  font-size: 11px;
 }
 
 .tablet-grid-home .loa-img{
@@ -229,6 +229,23 @@ footer{
 }
 
 /* Tablet home grid -- END */
+
+/* Laptop home grid */
+
+.laptop-grid-home{
+  font-size: 13px;
+}
+
+.laptop-grid-home .loa-img{
+  height: 280px;
+}
+
+.laptop-grid-home .box-area {
+  height: 280px;
+}
+
+/* Laptop home grid -- END */
+
 
 /* Marcel box-area + loa-img */
 
@@ -318,6 +335,29 @@ footer{
 }
 /* Tablet flight info grid -- END */
 
+/* Laptop fligh info grid */
+
+.laptop-grid-flight{
+  height: 325px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 35px;
+}
+
+.laptop-grid-flight .loa-img{
+  height: 325px;
+  margin: 0px;
+  margin-top: 34px;
+}
+
+.laptop-grid-flight .box-area {
+  font-size: 13px;
+  padding: 1px;
+  height: 325px;
+}
+
+/* laptop flight info grid -- END */
+
 /* Flight Info page -- END */
 
 
@@ -400,14 +440,13 @@ i:hover{
 }
 
 
-/* Mobile footer */
+/* Laptop footer */
 
-/* Mobile footer -- END */
+.laptop-footer{
+  margin-top: 60px;
+}
 
-/* Tablet footer */
-
-
-/* Tablet footer -- END */
+/* Laptop footer -- END */
 
 /* Footer genral/desktop -- END */
 
@@ -478,7 +517,7 @@ i:hover{
 @media (min-width: 768px) {}
 
 /* Medium devices (tablets) */
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1023px) {
   .web-table{
     display: none;
   }
@@ -491,22 +530,21 @@ i:hover{
     display: none;
   }
 
-  .web-grid-home{
+  .laptop-grid-home{
     display: none;
   }
 
-  .web-footer{
+  .laptop-footer{
     display: none;
   }
 
-  .web-grid-flight{
+  .laptop-grid-flight{
     display: none;
   }
-
 
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1023px) {
   .tablet-table{
     display: none;
   }
@@ -535,6 +573,36 @@ i:hover{
 }
 
 /* Large devices (desktops) */
-@media (min-width: 1440px) {}
+
+@media screen and (max-width: 1439px) {
+  .web-grid-flight{
+    display: none;
+  }
+
+  .web-footer{
+    display: none;
+  }
+
+  .web-grid-home{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 1439px) {
+
+  .laptop-grid-flight{
+    display: none;
+  }
+
+  .laptop-footer{
+    display: none;
+  }
+
+  .laptop-grid-home{
+    display: none;
+  }
+
+}
 
 /* Breakpoints -- END */

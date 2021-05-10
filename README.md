@@ -302,6 +302,15 @@ Issues - Problems with text overlapping on small mobile devices
 
 Fix - Additional small device breakpoint (Not yet added)
 
+### 6.17 Finished text, breakpoints for laptops/mobile flight/home page
+
+Additions:
+
+- Text on home page Added
+- Laptop breakpoints finished
+- Mobile home page grid structure finished
+
+
 ## 7.0 Deployment
 
 ### 7.1 How to run this project logically
@@ -353,6 +362,20 @@ Responsive breakpoints (4th one down) - https://getbootstrap.com/docs/4.5/layout
 
 #### 8.3.1 Home page
 
+Overview on the company:
+
+https://www.routesonline.com/airlines/3475/emirates/
+
+Travel with confidence:
+
+https://flywith.virginatlantic.com/gb/en/come-fly-with-us.html
+
+Flight information:
+
+https://flysafair.zendesk.com/hc/en-us/articles/206634089-What-to-Expect-at-the-Airport
+
+#### 8.3.2 Flight info
+
 Hawaii description summary:
 
 https://www.britishairways.com/en-gb/destinations/hawaii/hawaii-holidays?&Brand=N&DM1_Channel=PPC&DM1_Mkt=UK&DM1_Campaign=UKI_UK_EN_DP_GENERIC_HOLIDAYS_HAWAII&SEO=N&DM1_Keyword=hawaii%20holiday&gclid=CjwKCAjwkN6EBhBNEiwADVfyawNE4DBNBy_57sDTP4pbPZ8QPU-4H6Gm_quX85QXrJ0qNyZFijlnIBoCQLMQAvD_BwE&gclsrc=aw.ds
@@ -368,12 +391,6 @@ https://www.emirates.com/uk/english/destinations/flights-to-australia.aspx
 New Zealand description summary:
 
 https://www.emirates.com/uk/english/destinations/flights-to-new-zealand.aspx
-
-#### 8.3.2 Flight info
-
-
-
-#### 8.3.3 Contact us
 
 ### 8.4 Acknowledgments
 
