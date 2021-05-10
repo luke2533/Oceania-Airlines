@@ -91,7 +91,7 @@ https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933
 - video-1 - Video of Hawaii (slideshow)
 
 ### 2.5 Wireframes
-(Link to wireframe in README.md)
+[Wireframes](Oceania Airlines Wireframe.pdf)
 
 (Link to Mock up in README.md)
 
@@ -102,10 +102,13 @@ https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933
 - Small summary of location
 - User contact form
 - Static board/table with flight info
-1. Time
-2. Destination
-3. Flight number
-4. Status
+Time
+
+Destination
+
+Flight number
+
+Status
 - Images and videos (slideshow)
 - Submit button (form)
 - Company contact info
@@ -330,6 +333,12 @@ Issues - 6.16 Problems with text overlapping on small mobile devices
 
 Fix - Additional breakpoint for small mobile devices added
 
+### 6.19 Updates to documentation and testing
+
+Additions:
+
+- Wireframe linked to README.md
+- Testing compete 
 
 ## 7.0 Deployment
 
