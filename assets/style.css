@@ -186,7 +186,7 @@ footer{
 .box-area{
   border: 1px solid black;
   max-height: 400px;
-  height: 85%;
+  height: 95%;
   width: 100%;
   margin-top: 10px;
   margin-bottom: 0px;
@@ -195,21 +195,50 @@ footer{
   color: #FFFFFF;
 }
 
+.web-grid-home{
+  font-size: 15px;
+}
+
 /* Oceania Airlines home grid genral/desktop -- END */
+
+/* Mobile home grid */
+
+.s-mobile-grid-home{
+  height: 125px;
+  font-size: 4.6px;
+}
+
+.s-mobile-grid-home .loa-img{
+  width: 150px;
+  margin: 5px;
+}
+
+.s-mobile-grid-home .box-area {
+  width: 150px;
+}
+
+
+/* Mobile home grid -- END */
 
 /* Mobile home grid */
 
 .mobile-grid-home{
   height: 200px;
   font-size: 6.8px;
-  padding: 7px;
+  padding: 5px;
 }
 
 .mobile-grid-home .loa-img {
   width: 200px;
   height: 180px;
+  margin: 5px;
 }
 
+.mobile-grid-home .box-area {
+  width: 180px;
+  height: 180px;
+  margin: 5px;
+}
 
 /* Mobile home grid -- END */
 
@@ -222,10 +251,12 @@ footer{
 
 .tablet-grid-home .loa-img{
   width: 350px;
+  margin: 5px;
 }
 
 .tablet-grid-home .box-area {
   width: 350px;
+  margin: 5px;
 }
 
 /* Tablet home grid -- END */
@@ -258,11 +289,7 @@ footer{
 /* Table genral/desktop */
 
 .web-table{
-  width: 100%;
-  max-width: 1600px;
-  margin-left: 160px;
-  margin-top: 10px;
-  background-color: green;
+  margin-top: 15px;
 }
 
 .loa-name{
@@ -271,12 +298,23 @@ footer{
 
 /* Table genral/desktop -- END  */
 
+/* Small mobile table */
 
+.s-mobile-table{
+  width: 300px;
+  font-size: 6px;
+  margin-top: 15px;
+  padding: 1px;
+}
+
+/* Small mobile table -- END */
+
+/* Mobile table */
 
 .mobile-table{
-  width: 370px;
-  font-size: 9px;
-  justify-content: center;
+  width: 420px;
+  font-size: 7px;
+  margin-top: 15px;
 }
 
 /* Mobile table -- END */
@@ -288,13 +326,49 @@ footer{
 }
 
 .tablet-table{
-  background-color: red;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 0px;
 }
 
 /* Tablet table -- END */
+
+/* Genral/desktop flight info */
+
+.web-grid-flight{
+  margin-bottom: 35px;
+  font-size: 17px;
+  max-width: 1920px;
+}
+
+
+.web-grid-flight .loa-img{
+  margin-top: 34px;
+}
+
+/* Genral/desktop flight info -- END */
+
+/* Small mobile flight info */
+
+.s-mobile-grid-flight{
+  min-height: 165px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.s-mobile-grid-flight .loa-img{
+  height: 130px;
+  margin: 0px;
+  margin-top: 34px;
+}
+
+.s-mobile-grid-flight .box-area {
+  height: 130px;
+  font-size: 4.6px;
+}
+
+/* Small mobile flight info -- END */
 
 /* Mobile flight info */
 
@@ -322,23 +396,30 @@ footer{
 /* Tablet flight info grid */
 
 .tablet-grid-flight{
-  height: 300px;
+  height: 334px;
   font-size: 14px;
   margin-left: 10px;
   margin-right: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 45px;
 }
 
 .tablet-grid-flight .box-area {
-  font-size: 11px;
+  font-size: 11.5px;
   padding: 1px;
+  height: 300px;
+}
+
+.tablet-grid-flight .loa-img {
+  margin: 0px;
+  margin-top: 34px;
+  height: 300px;
 }
 /* Tablet flight info grid -- END */
 
 /* Laptop fligh info grid */
 
 .laptop-grid-flight{
-  height: 325px;
+  height: 359px;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 35px;
@@ -439,15 +520,6 @@ i:hover{
   color: #0C7C59;
 }
 
-
-/* Laptop footer */
-
-.laptop-footer{
-  margin-top: 60px;
-}
-
-/* Laptop footer -- END */
-
 /* Footer genral/desktop -- END */
 
 /* FOOTER -- END */
@@ -455,6 +527,51 @@ i:hover{
 
 
 /* Breakpoints */
+
+/* Extra small devices */
+
+@media screen and (max-width: 376px) {
+
+  .mobile-grid-home{
+    display: none;
+  }
+
+  .mobile-display{
+    display: none;
+  }
+
+  .mobile-table{
+    display: none;
+  }
+
+  .mobile-grid-flight{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 376px) {
+
+  .s-mobile-grid-home{
+    display: none;
+  }
+
+  .s-mobile-display{
+    display: none;
+  }
+
+  .s-mobile-table{
+    display: none;
+  }
+
+  .s-mobile-grid-flight{
+    display: none;
+  }
+
+}
+
+
+/* Extra small devices -- END */
 
 /* Small devices (vertical phone) */
 @media screen and (max-width: 426px) {
@@ -482,6 +599,10 @@ i:hover{
       display: none;
     }
 
+    .tablet-display{
+      display: none;
+    }
+
 
 }
 
@@ -498,10 +619,6 @@ i:hover{
     display: none;
   }
 
-  .mobile-grid-home{
-    display: none;
-  }
-
   .mobile-tablet{
     display: none;
   }
@@ -510,11 +627,17 @@ i:hover{
     display: none;
   }
 
+  .mobile-grid-home{
+    display: none;
+  }
+
+  .mobile-display{
+    display: none;
+  }
 
 }
 
-/* Small devcices (landscape phones) */
-@media (min-width: 768px) {}
+/* Small devices (vertical phone) -- END */
 
 /* Medium devices (tablets) */
 @media screen and (max-width: 1023px) {
@@ -569,8 +692,14 @@ i:hover{
     display: none;
   }
 
+  .tablet-display{
+    display: none;
+  }
+
 
 }
+
+/* Medium devices (tablets) -- END  */
 
 /* Large devices (desktops) */
 
@@ -604,5 +733,7 @@ i:hover{
   }
 
 }
+
+/* Large devices (desktops) -- END  */
 
 /* Breakpoints -- END */

@@ -310,6 +310,26 @@ Additions:
 - Laptop breakpoints finished
 - Mobile home page grid structure finished
 
+Issues - 6.14 Home page grid system on small phones (320 x 850) doesn't respond correctly
+
+Fix - New small mobile breakpoint added
+
+### 6.18 Table breakpoint fix, flight info small mobile breakpoint fix
+
+Additions:
+
+- Table works across all breakpoints
+- Flight info small mobile breakpoint complete
+- Text fits all devices
+
+Issues - 6.12 Problem with table stretching page dimensions on tablet and mobile versions
+
+Fix - Changed the columns (bootstrap) value from 10 to 12 to centre the table
+
+Issues - 6.16 Problems with text overlapping on small mobile devices
+
+Fix - Additional breakpoint for small mobile devices added
+
 
 ## 7.0 Deployment
 
