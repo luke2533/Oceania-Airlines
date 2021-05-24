@@ -24,7 +24,7 @@ Oceania airlines' target audience are business/economy class customers travellin
 
 #### 1.2.2 How the user needs are met
 
-1. Alt tags for videos and images, text transcript, color contrast, form labels, clear feedback for required forms fields * and device support
+1. Alt tags for videos and images, text transcript, colour contrast, form labels, clear feedback for required forms fields * and device support
 2. Vibrant images to in entice users
 3. Table section with flight times (static)
 4. Table sections with destinations to match with times (static)
@@ -43,11 +43,22 @@ Oceania airlines' target audience are business/economy class customers travellin
 
 ### 1.4 User stories
 
-- User is looking to contact oceania airlines
-- User is looking for flight information
-- User wants to be contacted by oceania airlines by their details
-- User wants summary of destinations
-- Users who are visually imparied cant see an image and so they require text to describe the content of the image
+- 1.4.1 User is looking to contact oceania airlines
+- 1.4.2 User is looking for flight information
+- 1.4.3 User wants to be contacted by oceania airlines by their details
+- 1.4.4 User wants recommendation/summary of destinations
+- 1.4.5 Users who are visually impaired cant see an image and so they require text to describe the content of the image
+
+1.4.1 The user is looking to find more information about oceania airlines or needs help with a query which can only be resolved through customer service, the user finds the contact information on the contact us page which will be found on all pages on the nav-bar and footer.
+
+1.4.2 The user is looking for information on their flight, the user finds the flight information on a table on the flight information page navigating there from any page from the nav-bar and footer
+
+1.4.3 User wants to be contacted by oceania airlines by entering their personal details, the user finds a contact form on the contact us page which they can navigate to from any page using the nav-bar and footer
+
+1.4.4 User wants a recommendation/summary as to which destination they should travel to, the user finds this on the flight info page underneath the flight table with four of the top destinations with a summary of the locations hottest attractions which can be navigated to on any page.    
+
+1.4.5 Users who are visually impaired use the website using a text to speech software which where a image or video would be a small description of the image or video is there to inform the user on what was there.
+
 
 ## 2.0 Design choices
 
@@ -91,7 +102,7 @@ https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933
 - video-1 - Video of Hawaii (slideshow)
 
 ### 2.5 Wireframes
-[Wireframes](Oceania Airlines Wireframe.pdf)
+[Wireframes](oceania-airlines-wireframe.pdf)
 
 (Link to Mock up in README.md)
 
@@ -126,15 +137,15 @@ Status
 
 ### 4.1 HTML5
 
----------------------
+HTML5 was used across all 3 pages for basic structure and usability such as accessibility with alt tags, links that open in another tabs, images and videos that loop and auto play.
 
 ### 4.2 CSS3
 
----------------------
+CSS3 was used for presentation to customise the visuals of the website giving the user feedback through hover animations, consistent colours that are readable for users and responsive breakpoints that function maintaining structure across all devices.     
 
 ### 4.3 Bootstrap
 
----------------------
+[Bootstrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) was used for more advanced and responsive framework that provides the user with a consistent experience on all pages and all devices.
 
 ## 5.0 Testing
 
@@ -338,7 +349,20 @@ Fix - Additional breakpoint for small mobile devices added
 Additions:
 
 - Wireframe linked to README.md
-- Testing compete 
+- Testing compete
+
+### 6.20 Updated README.md and fix to HTML/CSS validator errors
+
+Additions:
+
+- Technologies
+- User stories
+- Fixed validator errors CSS and HTML
+
+Issues - Link to wireframe didn't work due to its name
+
+Fix - Changed the files name to include dashes
+
 
 ## 7.0 Deployment
 
@@ -420,7 +444,3 @@ https://www.emirates.com/uk/english/destinations/flights-to-australia.aspx
 New Zealand description summary:
 
 https://www.emirates.com/uk/english/destinations/flights-to-new-zealand.aspx
-
-### 8.4 Acknowledgments
-
-### 9.0 Disclaimer
