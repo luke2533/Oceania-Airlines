@@ -67,15 +67,15 @@ Oceania airlines' target audience are business/economy class customers travellin
 
 Titles and subtitles will be in Bebas Neue:
 
-<a href="https://fonts.google.com/specimen/Bebas+Neue?preview.layout=row&category=Display&preview.text=Oceania%20Airlines&preview.text_type=custom#standard-styles" target="_blank">Babas Neue</a>
+[Babas Neue](https://fonts.google.com/specimen/Bebas+Neue?preview.layout=row&category=Display&preview.text=Oceania%20Airlines&preview.text_type=custom#standard-styles)
 
 Text will be in Noto Sans JP:
 
-<a href="https://fonts.google.com/specimen/Noto+Sans+JP?preview.size=64&preview.layout=row&category=Sans+Serif" target="_blank">Noto Sans JP</a>
+[Noto Sans JP](https://fonts.google.com/specimen/Noto+Sans+JP?preview.size=64&preview.layout=row&category=Sans+SerifNoto)
 
 ### 2.2 Icons
 
-<a href="https://fontawesome.com/icons?d=gallery&p=2&q=plane" target="_blank">Font awesome:</a>
+[Font awesome](https://fontawesome.com/icons?d=gallery&p=2&q=plane)
 - Youtube icon
 - Instagram icon
 - Twitter icon
@@ -84,13 +84,13 @@ Text will be in Noto Sans JP:
 - Home icon (home page)
 - Plane icon (flight info)
 
-### 2.3 Colors
+### 2.3 Colours
 
-<a href="https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933" target="_blank">Colors</a>
-- #FFFFFF - Normal background color
+[Colours](https://coolors.co/bac1b8-58a4b0-0c7c59-2b303a-d64933)
+- #FFFFFF - Normal background colour
 - #E6E6E6 - Header and footer background
-- #0C7C59 - Primary color (buttons, text buttons, nav bar)
-- #D64933 - Secondary color (hover)
+- #0C7C59 - Primary colour (buttons, text buttons, nav bar)
+- #D64933 - Secondary colour (hover)
 
 ### 2.4 Images and Videos
 
@@ -106,7 +106,7 @@ Text will be in Noto Sans JP:
 
 ### 2.5 Wireframes
 
-<a href="assets/wireframes/oceania-airlines-wireframe.pdf" target="_blank">Wireframes pdf</a>
+[Wireframes pdf](assets/wireframes/oceania-airlines-wireframe.pdf)
 
 Home desktop wireframe
 
@@ -144,7 +144,7 @@ Contact us mobile wireframe
 
 ![Contact us page mobile](/assets/wireframes/contact-us-mobile-wire.png)
 
-<a href"assets/mockups/mockup-project-1.pdf" target="_blank">Mock up pdf</a>
+[Mock up pdf](assets/mockups/mockup-project-1.pdf)
 
 Home desktop mock up
 
@@ -221,12 +221,11 @@ CSS3 was used for presentation to customise the visuals of the website giving th
 
 ### 4.3 Bootstrap
 
-<a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" target="_blank">Bootstrap 4.5</a>
- was used for more advanced and responsive framework that provides the user with a consistent experience on all pages and all devices.
+[Bootstrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) was used for more advanced and responsive framework that provides the user with a consistent experience on all pages and all devices.
 
 ## 5.0 Testing
 
-<a href="test.md" target="_blank">Testing documentation</a>
+[Testing documentation](test.md)
 
 ## 6.0 Development life cycle
 
@@ -446,33 +445,61 @@ Additions:
 
 - Links open in new tab from README
 
+### 6.22 Mock-up and wireframe images Added
+
+Additions:
+
+- Wireframes Images
+- Mock up Images
+- Mock up pdf
+
+### 6.23
+
+Additions:
+
+- Fix to Links
+- Documentation of deployment on GitHub pages (not yet published)
+- Possible fix to images
+
 ## 7.0 Deployment
 
-### 7.1 How to run this project logically
+The project was developed to GitHub via Atom.
 
-### 7.2 Github links
+To create a GitHub page these steps where taken:
+
+1. Used GitHub to find the Oceania-Airlines repository
+2. Access the settings
+3. Find the GitHub Pages section (Below archives)
+4. Grant access to the main branch
+5. Select the root folder and click save
+
+A new branch is published to GitHub pages
+
+### 7.1 Github links
+
+[Oceania Airlines Github](https://github.com/luke2533/Oceania-Airlines)
 
 ## 8.0 Credits
 
 ### 8.1 Media
 
-- <a href="https://www.graphicsprings.com/logographics/blue-flying-plane" target="_blank">logo</a>
-- <a href="https://runwaygirlnetwork.com/2020/10/14/questions-remain-about-covid-cabin-safety-testing/" target="_blank">image-1</a>
-- <a href="https://forum.airportceo.com/t/flight-and-cabin-crew/8921" target="_blank">image-2</a>
-- <a href="https://www.worldairportawards.com/tokyo-haneda-airport-worlds-cleanest-airport/" target="_blank">image-3</a>
-- <a href="https://www.gadventures.com/destinations/north-america/united-states/hawaii/" target="_blank">image-4</a>
-- <a href="https://www.state.gov/countries-areas/fiji/" target="_blank">image-5</a>
-- <a href="https://www.aussiespecialist.com/en/sales-resources/itineraries-search-and-feature/7-days-in-wa.html" target="_blank">image-6</a>
-- <a href="https://www.newzealand.com/uk/" target="_blank">image-7</a>
-- <a href="https://www.pexels.com/video/drone-footage-of-a-beach-white-sand-shoreline-4782483/" target="_blank">video-1 - Video of hawaii - Jess Vide</a>
+- [Logo](https://www.graphicsprings.com/logographics/blue-flying-plane)
+- [image-1](https://runwaygirlnetwork.com/2020/10/14/questions-remain-about-covid-cabin-safety-testing/)
+- [image-2](https://forum.airportceo.com/t/flight-and-cabin-crew/8921)
+- [image-3](https://www.worldairportawards.com/tokyo-haneda-airport-worlds-cleanest-airport/)
+- [image-4](https://www.gadventures.com/destinations/north-america/united-states/hawaii/)
+- [image-5](https://www.state.gov/countries-areas/fiji/)
+- [image-6](https://www.aussiespecialist.com/en/sales-resources/itineraries-search-and-feature/7-days-in-wa.html)
+- [image-7](https://www.newzealand.com/uk/)
+- [video-1 - Video of hawaii - Jess Vide](https://www.pexels.com/video/drone-footage-of-a-beach-white-sand-shoreline-4782483/)
 
 ### 8.2 Code
 
 Bootstrap V 4.5 in order of appearance (index, flight-info, contact-us)
 
-Nav bar horizontal alignment right <a href="https://getbootstrap.com/docs/4.5/components/navs/" target="_blank">(4th one down)</a>
+Nav bar horizontal alignment right [(4th one down)](https://getbootstrap.com/docs/4.5/components/navs/)
 
-Carousel with captions <a href="https://getbootstrap.com/docs/4.5/components/carousel/" target="_blank">(slide show 4th one down)</a>
+Carousel with captions [(slide show 4th one down)](https://getbootstrap.com/docs/4.5/components/carousel/)
 
 Grid system horizontal alignment (one of two columns 17th one down)
 <div class="row justify-content-center">
@@ -484,16 +511,16 @@ Grid system horizontal alignment (one of two columns 17th one down)
     </div>
   </div>
 
-<a href="https://getbootstrap.com/docs/4.5/layout/grid/" target="_blank">Layout grid 4.5</a>
+[Layout grid 4.5](https://getbootstrap.com/docs/4.5/layout/grid/)
 
 flight-info.html
 
-Tables boarded table (7th one down) - <a href="https://getbootstrap.com/docs/4.5/content/tables/" target="_blank">Tables 4.5</a>
+Tables boarded table (7th one down) - [Tables 4.5](https://getbootstrap.com/docs/4.5/content/tables/)
 
 
-Fix on video with across page (CSS) - <a href="https://stackoverflow.com/questions/3779771/html-5-video-stretch" target="_blank">Video stretch</a>
+Fix on video with across page (CSS) - [Video stretch](https://stackoverflow.com/questions/3779771/html-5-video-stretch)
 
-Responsive breakpoints (4th one down) - <a href="https://getbootstrap.com/docs/4.5/layout/overview/#responsive-breakpoints" target="_blank">Breakpoints</a>
+Responsive breakpoints (4th one down) - [Breakpoints](https://getbootstrap.com/docs/4.5/layout/overview/#responsive-breakpoints)
 
 ### 8.3 Content
 
@@ -501,31 +528,31 @@ Responsive breakpoints (4th one down) - <a href="https://getbootstrap.com/docs/4
 
 Overview on the company:
 
-<a href="https://www.routesonline.com/airlines/3475/emirates/" target="_blank">Emirates routes online</a>
+[Emirates routes online](https://www.routesonline.com/airlines/3475/emirates/)
 
 Travel with confidence:
 
-<a href="https://flywith.virginatlantic.com/gb/en/come-fly-with-us.html" target="_blank">Virgin Atlantic</a>
+[Virgin Atlantic](https://flywith.virginatlantic.com/gb/en/come-fly-with-us.html)
 
 Flight information:
 
-<a href="https://flysafair.zendesk.com/hc/en-us/articles/206634089-What-to-Expect-at-the-Airport" target="_blank">Flysafair</a>
+[Flysafair](https://flysafair.zendesk.com/hc/en-us/articles/206634089-What-to-Expect-at-the-Airport)
 
 #### 8.3.2 Flight info
 
 Hawaii description summary:
 
-<a href="https://www.britishairways.com/en-gb/destinations/hawaii/hawaii-holidays?&Brand=N&DM1_Channel=PPC&DM1_Mkt=UK&DM1_Campaign=UKI_UK_EN_DP_GENERIC_HOLIDAYS_HAWAII&SEO=N&DM1_Keyword=hawaii%20holiday&gclid=CjwKCAjwkN6EBhBNEiwADVfyawNE4DBNBy_57sDTP4pbPZ8QPU-4H6Gm_quX85QXrJ0qNyZFijlnIBoCQLMQAvD_BwE&gclsrc=aw.ds" target="_blank">Hawaii</a>
+[Hawaii](https://www.britishairways.com/en-gb/destinations/hawaii/hawaii-holidays?&Brand=N&DM1_Channel=PPC&DM1_Mkt=UK&DM1_Campaign=UKI_UK_EN_DP_GENERIC_HOLIDAYS_HAWAII&SEO=N&DM1_Keyword=hawaii%20holiday&gclid=CjwKCAjwkN6EBhBNEiwADVfyawNE4DBNBy_57sDTP4pbPZ8QPU-4H6Gm_quX85QXrJ0qNyZFijlnIBoCQLMQAvD_BwE&gclsrc=aw.ds)
 
 Fiji description summary:
 
-<a href="https://www.nationalgeographic.com/travel/slideshow/partner-content-12-reasons-to-make-fiji-your-happy-place" target="_blank">Fiji</a>
+[Fiji](https://www.nationalgeographic.com/travel/slideshow/partner-content-12-reasons-to-make-fiji-your-happy-place)
 
 Australia description summary:
 
-<a href="https://www.emirates.com/uk/english/destinations/flights-to-australia.aspx" target="_blank">Australia</a>
+[Australia](https://www.emirates.com/uk/english/destinations/flights-to-australia.aspx)
 
 
 New Zealand description summary:
 
-<a href="https://www.emirates.com/uk/english/destinations/flights-to-new-zealand.aspx" target="_blank">New Zealand</a>
+[New Zealand](https://www.emirates.com/uk/english/destinations/flights-to-new-zealand.aspx)
