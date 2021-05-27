@@ -110,77 +110,77 @@ Text will be in Noto Sans JP:
 
 Home desktop wireframe
 
-![Home page desktop](/assets/wireframes/home-desktop-wire.png)
+[Home page desktop](/assets/wireframes/home-desktop-wire.png)
 
 Home tablet wireframe
 
-![Home page tablet](/assets/wireframes/home-tablet-wire.png)
+[Home page tablet](/assets/wireframes/home-tablet-wire.png)
 
 Home mobile wireframe
 
-![Home page mobile](/assets/wireframes/home-mobile-wire.png)
+[Home page mobile](/assets/wireframes/home-mobile-wire.png)
 
 Flight info desktop wireframe
 
-![Flight info page desktop](/assets/wireframes/flight-info-desktop-wire.png)
+[Flight info page desktop](/assets/wireframes/flight-info-desktop-wire.png)
 
 Flight info tablet wireframe
 
-![Flight info page tablet](/assets/wireframes/flight-info-tablet-wire.png)
+[Flight info page tablet](/assets/wireframes/flight-info-tablet-wire.png)
 
 Flight info mobile wireframe
 
-![Flight info page mobile](/assets/wireframes/flight-info-mobile-wire.png)
+[Flight info page mobile](/assets/wireframes/flight-info-mobile-wire.png)
 
 Contact us desktop wireframe
 
-![Contact us page desktop](/assets/wireframes/contact-us-desktop-wire.png)
+[Contact us page desktop](/assets/wireframes/contact-us-desktop-wire.png)
 
 Contact us tablet wireframe
 
-![Contact us page tablet](/assets/wireframes/contact-us-tablet-wire.png)
+[Contact us page tablet](/assets/wireframes/contact-us-tablet-wire.png)
 
 Contact us mobile wireframe
 
-![Contact us page mobile](/assets/wireframes/contact-us-mobile-wire.png)
+[Contact us page mobile](/assets/wireframes/contact-us-mobile-wire.png)
 
 [Mock up pdf](assets/mockups/mockup-project-1.pdf)
 
 Home desktop mock up
 
-![Home page desktop](/assets/mockups/home-desktop.jpg)
+[Home page desktop](/assets/mockups/home-desktop.jpg)
 
 Home tablet mock up
 
-![Home page tablet](/assets/mockups/home-tablet.jpg)
+[Home page tablet](/assets/mockups/home-tablet.jpg)
 
 Home mobile mock up
 
-![Home page mobile](/assets/mockups/home-mobile.jpg)
+[Home page mobile](/assets/mockups/home-mobile.jpg)
 
 Flight info desktop mock up
 
-![Flight info page desktop](/assets/mockups/flight-info-desktop.jpg)
+[Flight info page desktop](/assets/mockups/flight-info-desktop.jpg)
 
 Flight info tablet mock up
 
-![Flight info page tablet](/assets/mockups/flight-info-tablet.jpg)
+[Flight info page tablet](/assets/mockups/flight-info-tablet.jpg)
 
 Flight info mobile mock up
 
-![Flight info page mobile](/assets/mockups/flight-info-mobile.jpg)
+[Flight info page mobile](/assets/mockups/flight-info-mobile.jpg)
 
 Contact us desktop mock up
 
-![Contact us page desktop](/assets/mockups/contact-us-desktop.jpg)
+[Contact us page desktop](/assets/mockups/contact-us-desktop.jpg)
 
 Contact us tablet mock up
 
-![Contact us page tablet](/assets/mockups/contact-us-tablet.jpg)
+[Contact us page tablet](/assets/mockups/contact-us-tablet.jpg)
 
 Contact us mobile mock up
 
-![Contact us page mobile](/assets/mockups/contact-us-mobile.jpg)
+[Contact us page mobile](/assets/mockups/contact-us-mobile.jpg)
 
 ## 3.0 Features
 
@@ -453,7 +453,7 @@ Additions:
 - Mock up Images
 - Mock up pdf
 
-### 6.23
+### 6.23 Deployment documentation added, Possible fix to links and images README
 
 Additions:
 
