@@ -1,5 +1,7 @@
 # Oceania airlines - Project 1
 
+https://luke2533.github.io/Oceania-Airlines/
+
 The project is an airline company that flies travellers to countries on the oceanic plate for all year round resort holidays. The website's goal is to deliver an intuitive user friendly website that provides the users information on flight times, destinations, contact information and form for the user to create an account.
 
 ## 1.0 UX
